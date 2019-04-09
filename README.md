@@ -75,7 +75,7 @@ $ ./train [-options] [filename]
 ## Input Data
 As shown in the following example, input data should have a obvective variable(real number) at the beginning and a sequence of symbols behind it. Note that separate each column with space, and the symbol must a positive integer.  
 
-###Itemset
+### Itemset
 
 >-0.0340430505 (19_39_75)  
 >-0.0462595143 (9_10_30_36_38_53)  
@@ -97,7 +97,7 @@ For example, the line
 indicates the objective variable is "-1.15" and the itemset "(1,2,3)".
 
 
-###Sequence
+### Sequence
 
 >1.1532180855 1 2 1 2 2 1 2 1 2 1 2 3 3 4 1 3 4 3 4 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 2 3 4 4 1   
 >0.4647166093 1 2 1 2 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2  
@@ -120,7 +120,7 @@ indicates the objective variable is "-1.15" and the sequence "1 2 1 2 3".
 
 For the output result, the total support, the lambda when that the pattern was added, the weight and p-value including that pattern are output in CSV for each extracted pattern as follows.  
 
-###Itemset
+### Itemset
 
 >pattern,supportSum,addλ,w,p-value  
 >(0),25,53,-0.251998,0.16729  
@@ -130,7 +130,7 @@ For the output result, the total support, the lambda when that the pattern was a
 >(0_49),2,43,-0.696259,0.316504  
             ︙
 
-###Sequence
+### Sequence
 
 >pattern,supportSum,addλ,w,p-value  
 >1 1 2 1 2 1 2 1 2 1,50,21,0.245609,0.167073  
